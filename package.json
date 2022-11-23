@@ -1,0 +1,16 @@
+{
+  "name": "expedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Nikk7.github.io/Expedia",
+  "scripts": {
+    "deploy": "gh-page -d dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
