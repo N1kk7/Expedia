@@ -1718,6 +1718,26 @@ select {
 	.wrapper .links {
 		width: 35%;
 	}
+	.apple{
+		width: 100%;
+	}
+	.apple img{
+		width: 150px;
+	}
+	.google img{
+		width: 175px;
+	}
+	.des-item {
+		position: relative;
+		bottom: 30px;
+	}
+	.card{
+		padding-bottom: 15px;
+	}
+	.l-card,
+	.l-b-card{
+		margin-bottom: 15px;
+	}
 }
 
 @media only screen and (max-width: 375px) {
@@ -1768,15 +1788,7 @@ select {
 		margin: 0px auto;
 		height: 65px;
 	}
-	.apple{
-		width: 100%;
-	}
-	.apple img{
-		width: 150px;
-	}
-	.google img{
-		width: 175px;
-	}
+	
 }
 
 @media only screen and (max-width: 320px) {
