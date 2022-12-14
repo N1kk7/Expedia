@@ -969,10 +969,16 @@ a {
 }
 
 /*------------------------------------------BOOKING-----------------------------------------*/
+#BOOKING .header{
+	display: block;
+}
+#BOOKING .header__item{
+	margin: 0 auto;
+}
 .booking-form {
-	margin-top: 150px;
-	width: 1050px;
-	height: 280px;
+	margin: 25vh auto 0;
+	width: 95%;
+	height: 70%;
 	background-color: rgba(19, 59, 92, 0.8);
 	border: 3px solid #fff;
 	border-radius: 30px;
@@ -1005,7 +1011,6 @@ a {
 	line-height: 20px;
 	letter-spacing: 2px;
 	text-align: center;
-	/*color: #9c9eaf;*/
 	color: #1F4AA8;
 	border: none;
 }
@@ -1020,7 +1025,7 @@ a {
 .choice-way {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 75px;
 }
 
 .left-section,
@@ -1094,7 +1099,7 @@ select {
 	display: inline-block;
 	width: 315px;
 	height: 50px;
-	line-height: 50px;
+	line-height: 120px;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -1153,31 +1158,35 @@ select {
 
 .change-btn a {
 	position: absolute;
-	top: 133px;
-	left: 215px;
+	top: 172px;
+	left: 323px;
+}
+.change-btn a img{
+	position: relative;
+	left: 0;
 }
 
 /*TAB3,4,5*/
 .tab-item {
-	padding-top: 15px;
+	padding-top: 50px;
 }
 
 .tabContent h3, p {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 25px;
 	color: #fff;
 	width: 780px;
 	margin: 0 auto;
 	text-align: justify;
-	padding-top: 5px;
+	padding: 5px 0 15px;
 }
 
 .tabContent h3 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	color: #FFFFFF;
 }
 
@@ -1451,13 +1460,25 @@ select {
 
 @media only screen and (max-width: 1024px) {
 	.booking-form {
-		width: 950px;
+		margin: 17vh auto 0;
+		width: 90%;
 	}
 	.flight-form input, .date-form input {
 		width: 150px;
 	}
 	.tabContent h3, p {
 		text-align: center;
+		font-size: 20px;
+	}
+	.direction-countries{
+		width: 100%;
+	}
+	.direction-countries p{
+		width: 255px;
+		font-size: 15px;
+	}
+	.change-btn a {
+		left: 245px;
 	}
 	#RECOMENDATION .header__item {
 		height: 77%;
@@ -1468,11 +1489,17 @@ select {
 	.r-wrapper {
 		overflow: hidden;
 		height: 95%;
+		margin-top: 5%;
 	}
 	.r-img {
 		overflow-y: auto;
-		height: 100%;
+		height: 75vh;
 		display: block;
+		margin-bottom: 25px;
+	}
+	.r-right .des-item{
+		position: relative;
+		bottom: 115px;
 	}
 	.l-card .r-card {
 		margin: 0;
@@ -1488,34 +1515,51 @@ select {
 
 @media only screen and (max-width: 768px) {
 	.booking-form {
-		width: 685px;
-		margin-top: 275px;
+		width: 90%;
+		height: 50%;
+		margin: 25vh auto 0;
 	}
 	.b-naw ul a {
 		font-size: 14px;
 	}
+	.b-naw ul li{
+		margin: 0 5px;
+	}
+	.b-wrapper{
+		margin: 0 30px;
+	}
 	.direction-countries {
 		width: 635px;
+		padding-top: 15px;
 	}
 	.direction-countries p {
 		width: 200px;
+		line-height: 75px;
 	}
 	.flight-form input, .date-form input {
 		width: 110px;
 	}
 	.change-btn a {
 		top: 127px;
-		left: 123px;
+		left: 168px;
 	}
 	.tabContent h3, p {
 		width: 560px;
 		font-size: 14px;
+		padding-bottom: 5px;
+	}
+	.tab-item{
+		padding-top: 15px;
+	}
+	.choice-way{
+		padding-top: 30px;
 	}
 	.recomendation .tittle {
 		padding-bottom: 15px;
 	}
 	.r-img{
 		padding-top: 20px;
+		padding-bottom: 100px;
 	}
 	.des-card{
 		display: block;
@@ -1564,6 +1608,9 @@ select {
 }
 
 @media only screen and (max-width: 425px) {
+	.wrapper .links li {
+		height: 10%;
+	}
 	.header__item .tittle-1 {
 		font-size: 42px;
 	}
@@ -1571,9 +1618,10 @@ select {
 		width: 375px;
 	}
 	.booking-form {
-		width: 390px;
-		margin-top: 95px;
-		height: 500px;
+		width: 90%;
+		margin: 95px auto 0;
+		height: 75vh;
+		overflow: auto;
 	}
 	.b-wrapper {
 		margin: 0 30px;
@@ -1589,11 +1637,11 @@ select {
 		padding-bottom: 28px;
 	}
 	.direction-countries {
-		width: 400px;
+		width: 100%;
 	}
 	.direction-countries p {
-		width: 105px;
-		height: 105px;
+		width: 28%;
+		height: 15vh;
 	}
 	.left-section, .right-section, .radio-button, .form {
 		display: block;
@@ -1602,6 +1650,10 @@ select {
 	.left-top{
 		display: flex;
     	justify-content: center;
+	}
+	.r-right .des-item {
+		position: unset;
+		bottom: 0;
 	}
 	.des-card{
 		width: 95%;
@@ -1613,16 +1665,22 @@ select {
 	.tab-2-input {
 		padding-top: 80px;
 	}
+	.tab-2-nav{
+		overflow: hidden;
+	}
 	.flight-form {
 		margin-right: 40px;
 	}
 	.flight-form input, .date-form input {
-		width: 125px;
+		width: 30%;
 		margin-bottom: 30px;
 	}
 	.change-btn a {
 		top: 230px;
-		left: 130px;
+		left: 168px;
+	}
+	.tab-2-nav .button {
+		padding: 25px;
 	}
 	.tabContent h3, p {
 		width: 325px;
@@ -1636,7 +1694,8 @@ select {
 		height: 98%;
 	}
 	.r-img {
-		height: 450px;
+		height: -webkit-fill-available;
+		padding-bottom: 20px;
 	}
 	.left-top img {
 		border-radius: 30px;
@@ -1749,11 +1808,6 @@ select {
 	.description {
 		width: 300px;
 	}
-	.booking-form {
-		width: 350px;
-		margin-top: 100px;
-		height: 500px;
-	}
 	.b-wrapper {
 		margin: 0px 20px;
 	}
@@ -1761,14 +1815,22 @@ select {
 		position: relative;
 		bottom: 40px;
 	}
-	.direction-countries {
-		width: 350px;
+	.direction-countries p {
+		font-size: 13px;
+	}
+	.tab-item p{
+		padding: 10px;
+	}
+	.date-form,
+	.flight-form{
+		width: 100%;
+		text-align: -webkit-left;
 	}
 	.flight-form input, .date-form input {
 		width: 105px;
 	}
 	.change-btn a {
-		left: 110px;
+		left: 152px;
 	}
 	.recomendation .tittle {
 		font-size: 20px;
@@ -1787,9 +1849,7 @@ select {
 	}
 	.wrapper .links li {
 		margin: 0px auto;
-		height: 65px;
 	}
-	
 }
 
 @media only screen and (max-width: 320px) {
@@ -1816,9 +1876,6 @@ select {
 	.booking-form {
 		margin-top: 50px;
 	}
-	.wrapper .links li {
-		height: 70px;
-	}
 	.wrapper .links a {
 		font-size: 12px;
 	}
@@ -1829,7 +1886,6 @@ select {
 		width: 45%;
 	}
 	.booking-form {
-		width: 300px;
 		max-height: 90%;
     	top: 7%;
 	}
@@ -1862,7 +1918,7 @@ select {
 		width: 80px;
 	}
 	.change-btn a {
-		left: 85px;
+		left: 128px;
 	}
 	.tabContent h3, p {
 		width: 270px;
