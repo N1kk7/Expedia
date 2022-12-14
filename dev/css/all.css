@@ -1619,7 +1619,7 @@ select {
 	}
 	.booking-form {
 		width: 90%;
-		height: 65vh;
+		height: 60vh;
 		overflow: auto;
 		margin: 14vh auto 0;
 	}
