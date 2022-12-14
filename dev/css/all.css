@@ -1621,6 +1621,7 @@ select {
 		width: 90%;
 		height: 75vh;
 		overflow: auto;
+		margin: 16vh auto 0;
 	}
 	.b-wrapper {
 		margin: 0 30px;
@@ -1690,11 +1691,11 @@ select {
 	}
 	.r-wrapper {
 		overflow: hidden;
-		height: 98%;
+		height: 80vh;
 	}
 	.r-img {
 		height: -webkit-fill-available;
-		padding-bottom: 20px;
+		padding: 35px 0 20px;
 	}
 	.left-top img {
 		border-radius: 30px;
