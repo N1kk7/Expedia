@@ -1619,7 +1619,6 @@ select {
 	}
 	.booking-form {
 		width: 90%;
-		margin: 95px auto 0;
 		height: 75vh;
 		overflow: auto;
 	}
@@ -1677,7 +1676,7 @@ select {
 	}
 	.change-btn a {
 		top: 230px;
-		left: 168px;
+		left: 45%;
 	}
 	.tab-2-nav .button {
 		padding: 25px;
@@ -1811,6 +1810,9 @@ select {
 	.b-wrapper {
 		margin: 0px 20px;
 	}
+	.booking-form{
+		height: 70vh;
+	}
 	.des-item{
 		position: relative;
 		bottom: 40px;
@@ -1874,6 +1876,7 @@ select {
 		width: 40%;
 	}
 	.booking-form {
+		height: 65vh;
 		margin-top: 50px;
 	}
 	.wrapper .links a {
