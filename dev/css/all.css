@@ -1812,9 +1812,9 @@ select {
 	.b-wrapper {
 		margin: 0px 20px;
 	}
-	.booking-form{
+	/* .booking-form{
 		height: 70vh;
-	}
+	} */
 	.des-item{
 		position: relative;
 		bottom: 40px;
@@ -1878,7 +1878,7 @@ select {
 		width: 40%;
 	}
 	.booking-form {
-		height: 65vh;
+		/* height: 65vh; */
 		margin-top: 50px;
 	}
 	.wrapper .links a {
